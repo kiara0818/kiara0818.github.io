@@ -6,24 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>정서영을 알아보아요!</title>
     <style>
-        li{
-            color: cornflowerblue;
-            font-size: large;
-            font-family: 'Courier New', Courier, monospace;
+        *{
+            background-color: black;
+            color: white;
         }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            border: 2px solid white;
+            margin: 5px;
+            padding: 5px;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+        .title{
+            text-align: left;
+            margin-left: 20px;
+            margin-right: 200px;
+            font-size: x-large;
+        }
+        .navlink{
+            text-align: center;
+            padding: 3px;
+        }
+        .topmain{
+            border: 2px solid white;
+            margin: 5px;
+            text-align: center;
+            font-size: 100px;
+        }
+        .snstable{
+            text-align: center;
+            border: 2px solid white;
+            margin: 5px;
+
+        }
+        .navlink a{
+            padding-left: 10px;
+            padding-right: 10px;   
+        }
+        table{
+            width: auto;
+        }
+
+    
     </style>
 </head>
 
 <body>
-    <h3>정서영은 누구일까요??</h3><br>
-    <ol>
-        <li><a href=information.html>information</a></li>
-        <li><a href=favorite.html>favorite</a></li>
-        <li><a href=feeling.html>feeling</a></li>
-        <li><a href =dream.html>dream</a></li>
-        <li><a href =schedule.html>schedule</a></li>
-        <li><a href="hanmin.html">hanmin</a></li>
-    </ol>
-    <h5>정서영의 소개페이지에 오신 것을 환영합니다!</h5>
+    <div class="container">
+            <nav>
+                <div class="title">정서영은 누구일까요?</div>  
+                    <div class="navlink">    
+                      <a href=information.html>information</a>
+                      <a href=favorite.html>favorite</a>
+                      <a href=feeling.html>feeling</a>
+                      <a href =dream.html>dream</a>
+                      <a href =schedule.html>schedule</a>
+                      <a href="hanmin.html">hanmin</a>   
+                    </div>                       
+            </nav>
+            <main>
+                <div class="topmain">
+                <h5>정서영의 소개페이지에 오신 것을 환영합니다!</h5>
+                </div>
+                <div class="snstable">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                            <td colspan="3">글씨를 눌러주세요!</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                               <td>사진</td> <td>사진</td> <td>사진</td>
+                           </tr>
+                           <tr>
+                               <td><a href="">instagram</a></td> <td><a href="">facebook</a></td> <td>kakaotalk</td>
+                           </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+    </div>
 </body>
 </html>
