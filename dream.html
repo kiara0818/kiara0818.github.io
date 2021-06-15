@@ -42,13 +42,26 @@
             padding-left: 10px;
             padding-right: 10px;   
         }
+        .under{
+            display: flex;
+            flex-direction: row;
+        }
+        .profile{
+            text-align: center;
+            font-size: xx-large;
+            border: 2px solid white;
+            width: 250px;
+            margin-top: 10px;
+            margin-right: 5px;
+            margin-left: 200px;
+        }
         main{
             border: 2px solid white;
-            margin-left: 300px;
-            margin-right: 300px;
+            margin-left: 5px;
+            margin-right: 200px;
             margin-top: 10px;
             padding-left: 100px;
-            padding-right: 50px;
+            padding-right: 100px;
             padding-top: 30px;
         }
         main .title{
@@ -56,12 +69,18 @@
             border-bottom: 1px dashed white;
             padding-bottom: 20px;
         }
+        a{
+            text-decoration: none;
+        }
+        img{
+            border: 1px solid white;
+        }
         </style>
     </head>
     <body>
         <div class="container">
             <nav>
-                <div class="title"><a href="index.html">정서영은 누구일까요?</a></div>    
+                <div class="title"><a href="index.html">Seoyoung Jung</a></div>    
                     <div class="navlink">    
                       <a href=information.html>information</a>
                       <a href=favorite.html>favorite</a>
@@ -70,23 +89,29 @@
                       <a href="hanmin.html">hanmin</a>
                     </div>                       
             </nav>
-            <main>
-                <div class="title"><strong>my dream</strong></div>
-                <div class="mainone">
-                    <h1>1. JOB:기계공학도</h1>
-                    <div style="font-size: 20px;"> ➡기계공학과에 입학해 물리에 찌들어 살고싶어요</div>
-                </div>
-                <div class="maintwo" style="padding-top: 30px; padding-bottom: 50px;">
-                    <h1>2. 수능 끝나고 할거(a.k.a. 버킷리스트)</h1>
-                    <ul style="font-size: 20px;">
+            <div class="under">
+               <div class="profile">
+                  <img src="me.jpg">
+                  <div id="name">빅파이(정서영)</div>
+                </div> 
+               <main>
+                  <div class="title"><strong>my dream</strong></div>              
+                  <div class="content">
+                    <div class="mainone">
+                     <h1>1. JOB:기계공학도</h1>
+                     <div style="font-size: 20px;"> ➡기계공학과에 입학해 물리에 찌들어 살고싶어요</div>
+                    </div>
+                    <div class="maintwo" style="padding-top: 30px; padding-bottom: 50px;">
+                     <h1>2. 수능 끝나고 할거(a.k.a. 버킷리스트)</h1>
+                     <ul style="font-size: 20px;">
                         <li>기숙사에서 치킨 시켜먹기.....(가능할지는 모름)</li>
                         <li>보석십자수 하기</li>
                         <li>드라마 정주행(펜트하우스1, 2, 3, 모범택시, 슬기로운 의사생활2)</li>
                         <li>내 카드로 30만원 지르기</li>
                     </ul>
-                 </div>
-                 
-            </main>
-    </div>   
+                    </div>
+                   </div>
+                </main>
+            </div>   
     </body>
 </html>

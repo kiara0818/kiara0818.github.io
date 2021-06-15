@@ -42,6 +42,19 @@
             text-align: center;
             font-size: 100px;
         }
+        .bottommain{
+            display: flex;
+            flex-direction: row;
+        }
+        .profile{
+            text-align: center;
+            font-size: xx-large;
+            border: 2px solid white;
+            width: 400px;
+            margin-top: 5px;
+            margin-right: 5px;
+            margin-left: 200px;
+        }
         .snstable{
             text-align: center;
             border: 2px solid white;
@@ -54,15 +67,22 @@
         table{
             width: auto;
         }
-
-    
+        img{
+            border: 1px solid white;
+        }
+        a{
+            text-decoration: none;
+        }
+        table img{
+            border: none;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
             <nav>
-                <div class="title"><a href="index.html">정서영은 누구일까요?</a></div>  
+                <div class="title"><a href="index.html">Seoyoung Jung</a></div>  
                     <div class="navlink">    
                       <a href=information.html>information</a>
                       <a href=favorite.html>favorite</a>
@@ -75,7 +95,12 @@
                 <div class="topmain">
                 <h5>정서영의 소개페이지에 오신 것을 환영합니다!</h5>
                 </div>
-                <div class="snstable">
+                <div class="bottommain">
+                     <div class="profile">
+                        <img src="me.jpg">
+                        <div id="name">빅파이(정서영)</div>
+                     </div>
+                    <div class="snstable">
                     <table border="1" style="border-color: white;">
                         <thead>
                             <tr>
@@ -84,14 +109,15 @@
                         </thead>
                         <tbody>
                            <tr>
-                               <td>사진</td> <td>사진</td> <td>사진</td>
+                               <td><img src="instagram.jpg"></td> <td><img src="facebook.jpg"></td> <td><img src="kakaotalk.jpg"></td>
                            </tr>
                            <tr>
-                               <td><a href="">instagram</a></td> <td><a href="">facebook</a></td> <td>kakaotalk</td>
+                               <td><a href="https://www.instagram.com/seo0_kiara/">instagram</a></td> <td><a href="https://www.facebook.com/profile.php?id=100022686392492">facebook</a></td> <td>kakaotalk</td>
                            </tr>
                         </tbody>
                     </table>
-                </div>
+                    </div>
+            </div>
             </main>
     </div>
 </body>
