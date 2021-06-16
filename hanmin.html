@@ -5,25 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>정서영을 알아보아요</title>
+    <link rel="stylesheet" href="nav_bar.css">
     <style>
-        li{
-            color: cornflowerblue;
-            font-size: large;
-            font-family: 'Courier New', Courier, monospace;
+        .under{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .profile{
+            text-align: center;
+            font-size: xx-large;
+            border: 2px solid white;
+            width: 250px;
+            margin-top: 10px;
+            margin-right: 10px;
+            padding-top: 20px;
+            height: 300px;
+        }
+        .profile img{
+            width: 200px;
+        }
+        main{
+            border: 2px solid white;
+            margin-left: 5px;
+            margin-top: 10px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 30px;
+            width: 800px;
+        }
+        main .title{
+            font-size: 70px;
+            border-bottom: 1px dashed white;
+            padding-bottom: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            border: 1px solid white;
+        }
+        ul{
+            line-height: 40px;
         }
     </style>
 </head>
 <body>
-    <h3>정서영은 누구일까요??</h3><br>
-    <ol>
-        <li><a href=information.html>information</a></li>
-        <li><a href=favorite.html>favorite</a></li>
-        <li><a href=feeling.html>feeling</a></li>
-        <li><a href =dream.html>dream</a></li>
-        <li><a href =schedule.html>schedule</a></li>
-        <li><a href="hanmin.html">hanmin</a></li>       
-    </ol>
-
-    
+    <nav>
+        <div class="title"><a href="index.html">Seoyoung Jung</a></div>  
+            <div class="navlink">    
+              <a href=information.html>information</a>
+              <a href=favorite.html>favorite</a>
+              <a href =dream.html>dream</a>
+              <a href="hanmin.html">hanmin</a>
+            </div>                       
+        </nav>
+        <div class="under">
+            <div class="profile">
+               <img src="me.jpg">
+               <div id="name">빅파이(정서영)</div>
+             </div> 
+            <main>
+               <div class="title"><strong>HANMIN Life</strong></div>              
+               <div class="content">
+                 <div class="mainone">
+                     <h1>Activity</h1>
+                       <ul style="font-size: 20px;">
+                         <li>한민고 8기 1-6 소속</li>
+                         <li>엔지니어스(Engenius) 8기</li>
+                         <li>H-ART 8기</li>
+                         <li>Hanalum 8기-재학생사업부, 온라인사업부 소속</li>
+                       </ul>
+                 </div>
+                 <div class="maintwo" style="padding-top: 30px; padding-bottom: 30px;">
+                     <h1>2. What I hate</h1>
+                        <ul style="font-size: 20px;">
+                         <li><strong>food</strong>: 미나리, 라떼, 이온음료(토레타, 게토레이, 포카리, 파워에이드 등..)</li>
+                         <li><strong>movie</strong>: 로맨스 다큐 다 싫어요</li>
+                         <li><strong>subject</strong>: 국어 사회 극혐, 한국사도 싫어요(담임쌤 죄송합니다...)</li>
+                         <li><strong>color</strong>: 빨강 주황 노랑</li>
+                         <li><strong>Ice cream</strong>: 신거 제일 싫어, 너무 단것도 싫어</li>
+                        </ul>
+                 </div>
+              </div>
+            </main>
+         </div>   >
 </body>
 </html>
