@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    margin: 5px;
+    padding: 10px;
+}
+.title{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 400px;
+    font-size: xx-large;
+}
+.navlink{
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+}
+.navlink a{
+    padding-left: 10px;
+    padding-right: 10px;   
+}
