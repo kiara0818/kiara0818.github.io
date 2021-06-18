@@ -1,6 +1,5 @@
 *{
     background-color: black;
-    color: white;
 }
 .container{
     display: flex;
@@ -12,6 +11,7 @@ nav{
     border: 2px solid white;
     margin: 5px;
     padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .title{
     text-align: left;
@@ -27,4 +27,8 @@ nav{
 .navlink a{
     padding-left: 20px;
     padding-right: 20px;   
+}
+a{
+    text-decoration: none;
+    color: white;
 }
