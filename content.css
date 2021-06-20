@@ -5,6 +5,7 @@
     color: white;
 }
 .profile{
+    background-color: #18171C;
     text-align: center;
     font-size: xx-large;
     border: 2px solid white;
@@ -18,6 +19,7 @@
     width: 200px;
 }
 main{
+    background-color: #18171C;
     border: 2px solid white;
     margin-left: 5px;
     margin-top: 10px;
@@ -30,7 +32,7 @@ main .title{
     font-size: 70px;
     border-bottom: 1px dashed white;
     padding-bottom: 20px;
-    color: aqua;
+    color: white;
 }
 img{
     border: 1px solid white;

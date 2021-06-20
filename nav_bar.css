@@ -1,5 +1,5 @@
-*{
-    background-color: black;
+body{
+    background-color: #646669;
 }
 .container{
     display: flex;
@@ -8,6 +8,7 @@
 nav{
     display: flex;
     flex-direction: row;
+    background-color:#18171C;
     border: 2px solid white;
     margin: 5px;
     padding: 10px;
