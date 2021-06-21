@@ -17,6 +17,9 @@
         }
 .profile img{
     width: 200px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: aqua;
 }
 main{
     background-color: #18171C;
@@ -27,12 +30,13 @@ main{
     padding-right: 100px;
     padding-top: 30px;
     width: 800px;
+    margin-bottom: 10px;
 }
 main .title{
     font-size: 70px;
     border-bottom: 1px dashed white;
     padding-bottom: 20px;
-    color: white;
+    color: aqua;
 }
 img{
     border: 1px solid white;
